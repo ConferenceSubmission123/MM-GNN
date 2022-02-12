@@ -7,7 +7,7 @@ python3 main.py \
     --model MM_GNN \
     --num_layer 2 \
     --repeat 9 \
-    --num_epoch 200 \
+    --num_epoch 200 \https://github.com/ConferenceSubmission123/MM-GNN/blob/main/MMGNN/run.sh
     --gpu 0 \
     --data_dir ../data/Facebook100_pyg \
     --dataset GWU54 \
@@ -17,4 +17,3 @@ python3 main.py \
     --auto_fixed_seed \
     --use_adj_norm \
     # --use_center_moment \
-    # --use_norm \
