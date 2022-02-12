@@ -42,7 +42,8 @@ if __name__ == '__main__':
     ap.add_argument('--moment_reduce', type=str, default='mean', help='moment reduce when computing higher moment of MM_GCN and MM_GAT')
     ap.add_argument('--use_center_moment', action='store_true', help='whether to use center moment for MM_SAGE')
     ap.add_argument('--use_norm', action='store_true', help='whether to use layer norm for MM_SAGE')
-    ap.add_argument('--lr', type=float, default=0.01, help='fixed random seed by torch.manual_seed')
+    ap.add_argument('--lr', type=float, default=0.01, help='Initial learning rate for the optimizer.')
+    ap.add_argument('--weight_decay', type=float, default=5e-3, help='weight decay for optimizer.')
     args = ap.parse_args()
     print(args)
     
@@ -133,7 +134,7 @@ if __name__ == '__main__':
         model = build_model(args, dataset, device, model_init_seed)
         print(model)
         # build optimizer
-        optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-3)
+        optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
 
         best_acc = {
             'train': 0,
