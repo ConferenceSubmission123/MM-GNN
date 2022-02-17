@@ -46,5 +46,4 @@ python3 main.py \
     --use_adj_norm \
 ```
 
-Please feel free to E-mail me [biwendong20@mails.ucas.ac.cn](biwendong20@mails.ucas.ac.cn) if you have any questions on running the code.
 
