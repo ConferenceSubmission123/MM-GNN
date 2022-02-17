@@ -18,7 +18,7 @@ Mix-Moment GNN (MM-GNN) is a Graph Neural Network Model that introduce Moment Me
 
 ## Quick Start
 
-## Datasets
+### Datasets
 
 The datasets used in this paper include 9 social graph datasets from Facebook Social Network: UGA50, GWU54, Northeastern19, Hamilton46, Caltech36, Howard90, UF21, Simmons81, Tulane29. All these 9 datasets are provided in this repository at path: `./dataset/facebook100`. 
 
