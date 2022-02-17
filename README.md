@@ -10,7 +10,7 @@ Mix-Moment GNN (MM-GNN) is a Graph Neural Network Model that introduce Moment Me
 
 ### Requirements
 
-* Linux with Python $\geq$ 3.7
+* Linux with Python$\geq$3.7
 * PyTorch $\geq$ 1.7.1
 * Torch-geometric $\geq$ 2.0.2
 * Torch-scatter $\geq$ 2.0.7
