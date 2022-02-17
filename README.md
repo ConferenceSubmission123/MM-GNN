@@ -4,7 +4,7 @@ Original implementation for the submission paper: Towards Modeling Of Neighbors'
 
 Mix-Moment GNN (MM-GNN) is a Graph Neural Network Model that introduce Moment Methodes to GNN and use neighbors' feature distribution to enhance GNN-based methods. 
 
-![model_structure](model_structure.png)
+![model_structure](/Users/biwendong/Desktop/research/msra/KDD22_code/MM-GNN-main/model_structure.png)
 
 ## Installation
 
