@@ -113,7 +113,7 @@ class Facebook100(InMemoryDataset):
             os.makedirs(self.root)
         if not os.path.exists(self.raw_dir):
             os.makedirs(self.raw_dir)
-        source_dir = '/users/wendong/data/facebook100'
+        source_dir = '../data/facebook100'
         shutil.copyfile(os.path.join(source_dir, self.raw_file_names[0]), os.path.join(self.raw_dir, self.raw_file_names[0]))
 
     def process(self):
